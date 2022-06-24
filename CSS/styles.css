@@ -1,1 +1,29 @@
-body { background-color: white;}
+    background-color: #FFFFFF;
+}
+
+.page {
+    color: #757575;
+}
+
+/* 
+цвет основного заголовка #FFFFFF;
+цвет h2 #212121;
+цвет  h3 #757575;
+акцент #2196F3;
+вторичный цвет фона  #F5F4FA;
+первичный цвет фона#E5E5E5;
+цвет фона в начале #2F303A;
+*/
+<a class="logo link" href="" lang="en">Web<span class="logo-accent">Studio</span></a>.list {
+    list-style: none;
+}
+
+/* site-nav  */
+.site-nav .link {
+    color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav:focus {
+    color: #2196F3;
+}
