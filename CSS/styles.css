@@ -1,56 +1,65 @@
-  :root {
-    --primary-text-color: #757575;
-    --titel-color: #212121;
-        }
-  
-  body { background-color: #FFFFFF;
-}
+body {color: #757575;
+background-color: #E5E5E5;}
 
-.page {
-    color: var(--primary-text-color)};
+ul {list-style: none;}
 
 
-/* 
-цвет основного заголовка #FFFFFF;
-цвет h2 #212121;
-цвет  h3 #757575;
-вторичный цвет фона  #F5F4FA;
-первичный цвет фона#E5E5E5;
-цвет фона в начале #2F303A;
-*/
-.list {
-    list-style: none;
-}
+/* цвет основного текста #212121*/
+/* цвет вторичного текста #757575*/
+/* акцент #2196F3 */
+ /* цвет фона первичный #E5E5E5 */
+ /* цвет фона вторичный #F5F4FA*/
 
-/* site-nav  */
-.site-nav .link {
-    color: var(--titel-color);
-}
+.logo span { color: #2196F3;}
+.logo {color: #000000;}
+/* site-nav */
+.site-nav .link { color: #212121;}
 .site-nav .link:hover,
-.site-nav:focus {
-    color: #2196F3;
-}
-/* hero */
-.hero-titel {
-    color: var(--titel-color);
-}
-/* section */
-.section-titel {
-    color: var(--titel-color);
-}
-/* text */
-/* .business-text, */
-/* .emp-text { */
-/* footer */
-.adress-main {
-    color: #FFFFFF;
-    }
- .adress-main:hover,
- .adress-main:focus {
-    color: #2196F3;
+.site-nav .link:focus
+ { color:#2196F3;}
+ /* address */
+.address .mail:hover,
+.address .mail:focus,
+ { color: #2196F3;}
+ /* section */
+ .section-titel {
+    color: #212121;
  }
-    
-.adress-mail,
-.adress-number {
-    color: rgba(255, 255, 255, 0.6);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* buttons */
+:active :focus{
+
 }
