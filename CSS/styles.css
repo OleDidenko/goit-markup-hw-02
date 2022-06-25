@@ -12,21 +12,50 @@ ul {list-style: none;}
 
 .logo span { color: #2196F3;}
 .logo {color: #000000;}
+
 /* site-nav */
 .site-nav .link { color: #212121;}
 .site-nav .link:hover,
 .site-nav .link:focus
  { color:#2196F3;}
+
  /* address */
+ .address .mail, .address .number {
+    color: rgba(117, 117, 117, 1);}
 .address .mail:hover,
-.address .mail:focus,
- { color: #2196F3;}
+.address .mail:focus
+  {color: #2196F3}
+  .address .number:hover,
+  .address .number:focus {
+    color: #2196F3;}
+/* address footer */
+  .address-footer .main {
+    color: #FFFFFF;}
+    
+  .address-footer .mail,
+   .address-footer .number {
+    color: rgba(255, 255, 255, 0.6);}
+
+.address-footer .mail:hover,
+.address-footer .mail:focus {
+    color: #2196F3;    
+}
+.address-footer .number:hover,
+.address-footer .number:focus {
+    color: #2196F3;
+}
+.address-footer .main:hover,
+.address-footer .main:focus {
+    color: #2196F3;
+}
  /* section */
  .section-titel {
     color: #212121;
  }
-
-
+/* hero */
+.hero-titel {
+    color: #FFFFFF;
+}
 
 
 
