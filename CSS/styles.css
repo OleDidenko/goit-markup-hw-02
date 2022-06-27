@@ -18,6 +18,9 @@ ul {list-style: none;}
 .site-nav .link:hover,
 .site-nav .link:focus
  { color:#2196F3;}
+ .site-nav .link.current {
+    color: #2196F3;
+ }
 
  /* address */
  .address .mail, .address .number {
@@ -57,7 +60,25 @@ ul {list-style: none;}
     color: #FFFFFF;
 }
 
+.emp .titel {
+    color: #212121;
+}
+.business .titel {
+    color: #212121;
+}
+.card .titel {
+    color: #212121;
 
+}
+/* button */
+.button  {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.filter-button {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
 
 
 
