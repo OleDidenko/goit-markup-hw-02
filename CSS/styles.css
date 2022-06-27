@@ -76,6 +76,11 @@ ul {list-style: none;}
     background-color: #2196F3;
 }
 .filter-button {
+    color: #212121;
+    background-color: #F5F4FA;
+}
+.filter-button:hover,
+.filter-button:focus{
     color: #FFFFFF;
     background-color: #2196F3;
 }
