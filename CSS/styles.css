@@ -1,5 +1,7 @@
 body {color: #757575;
-background-color: #E5E5E5;}
+background-color: #E5E5E5;
+font-family: Roboto, sans-serif;
+letter-spacing: 0.03em;}
 
 ul {list-style: none;}
 
@@ -10,11 +12,26 @@ ul {list-style: none;}
  /* цвет фона первичный #E5E5E5 */
  /* цвет фона вторичный #F5F4FA*/
 
-.logo span { color: #2196F3;}
-.logo {color: #000000;}
+.logo span { color: #2196F3;
+font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+   }
+.logo {color: #000000; 
+font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+   } 
 
 /* site-nav */
-.site-nav .link { color: #212121;}
+
+.site-nav .link { color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;}
 .site-nav .link:hover,
 .site-nav .link:focus
  { color:#2196F3;}
@@ -23,21 +40,32 @@ ul {list-style: none;}
  }
 
  /* address */
+
  .address .mail, .address .number {
-    color: rgba(117, 117, 117, 1);}
+    color: rgba(117, 117, 117, 1);
+       font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;}
 .address .mail:hover,
 .address .mail:focus
   {color: #2196F3}
   .address .number:hover,
   .address .number:focus {
     color: #2196F3;}
+
 /* address footer */
+
   .address-footer .main {
-    color: #FFFFFF;}
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 1.7;}
     
   .address-footer .mail,
    .address-footer .number {
-    color: rgba(255, 255, 255, 0.6);}
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 1.7;}
 
 .address-footer .mail:hover,
 .address-footer .mail:focus {
@@ -52,33 +80,86 @@ ul {list-style: none;}
     color: #2196F3;
 }
  /* section */
- .section-titel {
+
+ .section-title {
     color: #212121;
- }
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+         }
 /* hero */
-.hero-titel {
+.hero-title {
     color: #FFFFFF;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.4;
+          
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
 }
 
-.emp .titel {
+.emp .title {
     color: #212121;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;       
+        }
+.emp-text {
+        font-size: 16px;
+        line-height: 1.19;        
+        }
+.business .title {
+    color: #212121;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
 }
-.business .titel {
+.business .text {
+        font-size: 14px;
+        line-height: 1.7;
+      }
+.card .title {
     color: #212121;
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;           
+        letter-spacing: 0.06em;
+        }
+.card-text {
+        font-size: 16px;
+        line-height: 1.9;   
 }
-.card .titel {
-    color: #212121;
 
-}
 /* button */
+
 .button  {
     color: #FFFFFF;
     background-color: #2196F3;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.9;           
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        cursor: pointer;
+}
+.button:hover,
+.button:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
 }
 .filter-button {
     color: #212121;
     background-color: #F5F4FA;
-}
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: center;
+        cursor: pointer;
+            }
 .filter-button:hover,
 .filter-button:focus{
     color: #FFFFFF;
