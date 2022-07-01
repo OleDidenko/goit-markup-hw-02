@@ -25,7 +25,7 @@ a {text-decoration: none;}
 /* цвет фона вторичный #F5F4FA*/
 
 .logo span {
-    color: var(--accent-color);
+    color: #000000;
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -33,7 +33,7 @@ a {text-decoration: none;}
 }
 
 .logo {
-    color: #000000;
+    color: var(--accent-color);
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -81,14 +81,14 @@ a {text-decoration: none;}
 /* address footer */
 
 .footer-logo span {
-    color: var(--accent-color);
+    color: var(--primary-bg-color);
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
 }
 .footer-logo {
-    color: var(--primary-bg-color);
+    color: var(--accent-color);
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -109,6 +109,7 @@ footer {
 .address-footer .number {
     color: rgba(255, 255, 255, 0.6);
     line-height: 1.7;
+    font-style: normal
 }
 
 .address-footer .mail:hover,
@@ -184,6 +185,7 @@ footer {
     color: var(--titel-text-color);
     line-height: 1.14;
     text-transform: uppercase;
+    font-size: 14px;
 }
 
 .business-text {
@@ -238,4 +240,8 @@ footer {
 .filter-button:focus {
     color: var(--primary-bg-color);
     background-color: #2196F3;
+}
+.filter-button.active {
+background-color: var(--accent-color);
+color: var(--primary-bg-color);
 }
